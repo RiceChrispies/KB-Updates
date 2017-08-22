@@ -4,7 +4,7 @@ import fileinput
 from simple_salesforce import salesforce
 #Issues calling this, but need to table this for now.
 
-sf-Salesforce(username='cre@qlikview.com', password='15OSoQ7%!u0Oi!!', security_token='qet1jrSZEZEWRPx4TumWq0qn')
+sf-Salesforce(username='***', password='***', security_token='***')
 
 source = urllib.request.urlopen('https://eu1.salesforce.com/kA5D00000004MIb').read()
 soup = bs.BeautifulSoup(source,'lxml')
